@@ -1,0 +1,53 @@
+sort1 uses: Bubble sort
+
+random5000: 0m0.079s
+random10000: 0m0.432s
+random50000: 0m8.845s
+
+reversed5000: 0m0.105s
+reversed10000: 0m0.250s
+reversed50000: 0m6.805s
+
+sorted5000: 0m0.021s
+sorted10000: 0m0.053s
+sorted50000: 0m0.747s
+
+How do you know?: The significantly slower performance observed across different input cases, especially for larger inputs,
+                     indicates a quadratic time complexity, which aligns with Bubble Sort's worst-case complexity of O(n^2)
+
+---------------------------------------
+sort2 uses: Merge Sort
+
+random5000: 0m0.047s
+random10000: 0m0.048s
+random50000: 0m0.798s
+
+reversed5000: 0m0.042s
+reversed10000: 0m0.073s
+reversed50000: 0m1.033s
+
+sorted5000: 0m0.044s
+sorted10000: 0m0.120s
+sorted50000: 0m0.791s
+
+How do you know?: The consistently fast performance across all input cases, including larger inputs,
+                     indicates a divide-and-conquer algorithm like Merge Sort,
+                       which has an average and worst-case time complexity of O(n log n).
+
+-------------------------------------
+sort3 uses: Selection sort
+
+random5000: 0m0.055s
+random10000: 0m0.157s
+random50000: 0m3.991s
+
+reversed5000: 0m0.061s
+reversed10000: 0m0.157s
+reversed50000: 0m4.031s
+
+sorted5000: 0m0.047s
+sorted10000: 0m0.162s
+sorted50000: 0m3.879s
+
+How do you know?: The relatively slower execution times for larger input sizes correspond to a quadratic time complexity,
+                     in line with Selection Sort's worst-case complexity of O(n^2).

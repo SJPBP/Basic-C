@@ -1,0 +1,7 @@
+descending order - Means large to small
+sorting algorithm - "Selection sort" will be used beacuse maybe it is faster than Bubble sort and I coudln't find anything
+                    about Insertion sort.
+Selection sort - Start from first to last index, swap current number with number smaller than current number and repeat.
+                For i from 0 to n–1
+                    Find smallest number between numbers[i] and numbers[n-1]
+                    Swap smallest number with numbers[i]
