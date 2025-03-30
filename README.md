@@ -1,5 +1,5 @@
 # Basic-C
-Contains labs done in C.
+Contains labs done in C for [CS50x 2024](https://www.youtube.com/watch?v=3LPJfIKxwWc&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4)
 
 # Labs
 * Converting String to Integer Value 📝 (atoi)
